@@ -11,3 +11,12 @@ def chart(request):
 
 def table(request):
     return render(request,'table.html')
+
+def login(request):
+    return render(request,'login.html')
+
+def register(request):
+    return render(request,'register.html')
+
+def password(request):
+    return render(request,'password.html')
